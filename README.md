@@ -19,7 +19,7 @@ Git repo for the setup
 ## Conclusion
 
 
-<center><img alt="ROute53" src=""> </img></center>
+<center><img alt="aws" src=""> </img></center>
 
 #### ⚙️ Connect with Me
 
