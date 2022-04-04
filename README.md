@@ -16,7 +16,8 @@ Git repo for the setup
 > I have uploaded my website contents on https://github.com/jomyg/My-custom-simple-basic-website
 
 > First of all create a Elastic Beanstalk application environment, Here i have used the tomcat as i have to host my website via git. I have already confgured my git account with my aws account.
-> After the deploy of Beanstalk application environment completed, we can move on to the Code pipeline for the source code deployment to Beanstalk, I have used the git version 1 which have only the webhooks setup. When we commit any changes on our website contents its will trigger and Beanstalk will deploy the new contents to EC2 via Code PIpeline. I have attached all the snapshots of steps below. Pleas follow and let me know if you have any queries. 
+
+After the deploy of Beanstalk application environment completed, we can move on to the Code pipeline for the source code deployment to Beanstalk, I have used the git version 1 which have only the webhooks setup. When we commit any changes on our website contents its will trigger and Beanstalk will deploy the new contents to EC2 via Code PIpeline. I have attached all the snapshots of steps below. Pleas follow and let me know if you have any queries. 
 
 
 <center><img alt="aws" src="1-beanstalk.png"> </img></center>
