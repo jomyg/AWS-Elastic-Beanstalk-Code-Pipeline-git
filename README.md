@@ -26,8 +26,6 @@ Git repo for the setup
 <center><img alt="aws" src="5-soruce-git-cnnt.png"> </img></center>
 <center><img alt="aws" src="6-deploying.png"> </img></center>
 <center><img alt="aws" src="7-creation.png"> </img></center>
-<center><img alt="aws" src="8-contentdeployedfromgit toec2.png"> </img></center>
-<center><img alt="aws" src="9-completedandusethelink.png"> </img></center>
 <center><img alt="aws" src="10-site.png"> </img></center>
 <center><img alt="aws" src="11-secondcommitdoneongit.png"> </img></center>
 <center><img alt="aws" src="12.png"> </img></center>
