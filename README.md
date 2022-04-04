@@ -8,16 +8,36 @@ AWS Elastic Beanstalk is an orchestration service offered by Amazon Web Services
 
 AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.
 
-<center><img alt="aws" src=""> </img></center>
-
 ## Pre-Requests
 ```
 Basic knowledge on AWS,  Elastic Beanstalk and Code pipeline
 Git repo for the setup
 ```
+> I have uploaded my website contents on https://github.com/jomyg/My-custom-simple-basic-website
+
+> First of all create a Elastic Beanstalk application environment, Here i have used the tomcat as i have to host my website via git. I have already confgured my git account with my aws account.
+> After the deploy of Beanstalk application environment completed, we can move on to the Code pipeline for the source code deployment to Beanstalk, I have used the git version 1 which have only the webhooks setup. When we commit any changes on our website contents its will trigger and Beanstalk will deploy the new contents to EC2 via Code PIpeline. I have attached all the snapshots of steps below. Pleas follow and let me know if you have any queries. 
+
+
+<center><img alt="aws" src="1-beanstalk.png"> </img></center>
+<center><img alt="aws" src="creationinprogress-02.png"> </img></center>
+<center><img alt="aws" src="creationcompleted-03.png"> </img></center>
+<center><img alt="aws" src="4-pipeline-creation.png"> </img></center>
+<center><img alt="aws" src="5-soruce-git-cnnt.png"> </img></center>
+<center><img alt="aws" src="6-deploying.png"> </img></center>
+<center><img alt="aws" src="7-creation.png"> </img></center>
+<center><img alt="aws" src="8-contentdeployedfromgit toec2.png"> </img></center>
+<center><img alt="aws" src="9-completedandusethelink.png"> </img></center>
+<center><img alt="aws" src="10-site.png"> </img></center>
+<center><img alt="aws" src="11-secondcommitdoneongit.png"> </img></center>
+<center><img alt="aws" src="12.png"> </img></center>
+<center><img alt="aws" src="13-changes-triggers.png"> </img></center>
+<center><img alt="aws" src="14site.png"> </img></center>
+
 
 ## Conclusion
 
+Deployed my website via AWS Elastic Beanstalk and Code pipeline using git
 
 <center><img alt="aws" src=""> </img></center>
 
