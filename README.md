@@ -35,7 +35,6 @@ Git repo for the setup
 
 Deployed my website via AWS Elastic Beanstalk and Code pipeline using git
 
-<center><img alt="aws" src=""> </img></center>
 
 #### ⚙️ Connect with Me
 
